@@ -1,0 +1,31 @@
+* {
+    font-family: roboto;
+
+}
+/* pseudo class */
+ul li {
+    list-style-type: none;
+    font-size: 65px;
+}
+
+
+li:nth-child(even) {
+    color: cornflowerblue;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+
+/* pseudo element */
+
+h1::before{
+    content: 'before text ';
+    font-size: 20px;
+    color: darkslateblue;
+}
+h1::after{
+    content: ' after text';
+    font-size: 20px;
+    color: darkslateblue;
+}
